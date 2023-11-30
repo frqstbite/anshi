@@ -1,19 +1,18 @@
-# sister ANSI [![Version](https://img.shields.io/npm/v/sisteransi.svg)](https://www.npmjs.com/package/sisteransi) [![Build Status](https://travis-ci.org/terkelg/sisteransi.svg?branch=master)](https://travis-ci.org/terkelg/sisteransi) [![Downloads](https://img.shields.io/npm/dm/sisteransi.svg)](https://www.npmjs.com/package/sisteransi)
-
-> Ansi escape codes faster than you can say "[Bam bam](https://www.youtube.com/watch?v=OcaPu9JPenU)".
+# ANSHI [![Version](https://img.shields.io/npm/v/anshi.svg)](https://www.npmjs.com/package/anshi) [![Downloads](https://img.shields.io/npm/dm/anshi.svg)](https://www.npmjs.com/package/anshi)
 
 ## Installation
 
 ```
-npm install sisteransi
+npm install anshi
 ```
 
 
 ## Usage
 
 ```js
-const ansi = require('sisteransi');
-// or const { cursor } = require('sisteransi');
+const ansi = require('anshi');
+// OR
+import ansi from 'anshi'
 
 const p = str => process.stdout.write(str);
 
@@ -21,7 +20,7 @@ const p = str => process.stdout.write(str);
 p(ansi.cursor.to(2, 1));
 
 // to up, one down
-p(ansi.cursor.up(2)+ansi.cursor.down(1));
+p(ansi.cursor.up(2) + ansi.cursor.down(1));
 ```
 
 ## API
@@ -111,9 +110,9 @@ Clear the terminal screen. (Viewport)
 
 ## Credit
 
-This is a fork of [ansi-escapes](https://github.com/sindresorhus/ansi-escapes).
+This is a fork of [sisteransi](https://github.com/terkelg/sisteransi).
 
 
 ## License
 
-MIT © [Terkel Gjervig](https://terkel.com)
+MIT © [frqstbite](https://frqst.site)

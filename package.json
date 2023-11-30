@@ -1,20 +1,25 @@
 {
-  "name": "@frqstbite/ansi-escapes",
+  "name": "anshi",
   "version": "1.0.6",
-  "description": "ANSI escape codes for some terminal swag",
+  "description": "ANSI escape codes by Ashi",
   "main": "src/index.js",
   "license": "MIT",
+  "author": {
+    "name": "frqstbite",
+    "email": "frqstbite1001@gmail.com",
+    "url": "https://frqst.site"
+  },
   "scripts": {
     "test": "tape test/*.js | tap-spec"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/terkelg/sisteransi"
+    "url": "https://github.com/frqstbite/anshi"
   },
   "files": [
     "src"
   ],
-  "types": "./src/sisteransi.d.ts",
+  "types": "./src/anshi.d.ts",
   "keywords": [
     "ansi",
     "escape codes",
