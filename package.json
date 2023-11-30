@@ -1,14 +1,9 @@
 {
-  "name": "sisteransi",
-  "version": "1.0.5",
+  "name": "@frqstbite/ansi-escapes",
+  "version": "1.0.6",
   "description": "ANSI escape codes for some terminal swag",
   "main": "src/index.js",
   "license": "MIT",
-  "author": {
-    "name": "Terkel Gjervig",
-    "email": "terkel@terkel.com",
-    "url": "https://terkel.com"
-  },
   "scripts": {
     "test": "tape test/*.js | tap-spec"
   },
