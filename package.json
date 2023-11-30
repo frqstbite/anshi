@@ -1,6 +1,6 @@
 {
   "name": "anshi",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ANSI escape codes by Ashi",
   "main": "src/index.js",
   "license": "MIT",
