@@ -1,5 +1,5 @@
 # ANSHI [![Version](https://img.shields.io/npm/v/anshi.svg)](https://www.npmjs.com/package/anshi) [![Downloads](https://img.shields.io/npm/dm/anshi.svg)](https://www.npmjs.com/package/anshi)
-`anshi` is an easy-to-use ASCI escape code library made by Ashi
+An easy-to-use ASCI escape code library made by Ashi
 
 ## Installation
 
